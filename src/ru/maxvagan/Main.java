@@ -67,7 +67,7 @@ public class Main {
             case 12: System.out.println("Месяц :" + monthNumber + " - Декабрь. Сезон - Зима"); break;
             default: System.out.println("Внимание: Неверный номер месяц!");
         }
-        System.out.println("Не нашёл доп. задачи 6 и 7");
+//      "Не нашёл доп. задачи 6 и 7"
 //      Task 6
 //      Task 7
     }

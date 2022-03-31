@@ -67,8 +67,16 @@ public class Main {
             case 12: System.out.println("Месяц :" + monthNumber + " - Декабрь. Сезон - Зима"); break;
             default: System.out.println("Внимание: Неверный номер месяц!");
         }
-//      "Не нашёл доп. задачи 6 и 7"
 //      Task 6
+        System.out.println("Task 6");
+        int secondsToEndWorkday = 14238;
+//        long secondsToEndWorkday = Math.round(Math.random()*28800);
+        int hoursAreLeft = secondsToEndWorkday / 3600;
+        int minutesAreLeft = (secondsToEndWorkday % 3600) / 60;
+        int secondsAreLeft = secondsToEndWorkday % 60;
+        System.out.println("Секунд до окончания рабочего дня осталось: " + secondsToEndWorkday);
+        System.out.println("До окончания рабочего дня осталось: " +
+                hoursAreLeft + ":" + minutesAreLeft + ":" + secondsAreLeft);
 //      Task 7
     }
 }
